@@ -60,7 +60,7 @@ public class App extends TelegramLongPollingBot {
     }
 
     public String getBotToken() {
-        return "7811438625:AAGRn-ilAcNzhRp_eVxJYjHNey_fT_3Cv78";
+        return System.getenv("TELEGRAM_BOT_TOKEN");
     }
 
     public static void main(String[] args) throws Exception {
